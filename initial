@@ -1,0 +1,33 @@
+Vấn đề:
+	- Phương diện cá nhân: mỗi người đều có nhiều việc cần làm, có rất nhiều người thường xuyên không nhớ những công việc ấy, cũng có nhiều người thường không tập trung vào một việc mà làm nhiều việc cùng lúc dẫn đến quên không làm 1 số việc.
+		+ Giải pháp truyền thống: sử dụng sổ tay
+		+ Nhược điểm: lúc nào cũng phải mang theo sổ tay bên mình, sổ tay có thể bị mất, bị hư hại.
+		=> Cần 1 hệ thống giúp lưu trữ danh sách những công việc cần làm, một (hoặc một vài) việc đang làm và những việc đã hoàn tất.
+		+ Ưu điểm: dựa vào internet và công nghệ di động, đa thiết bị, truy cập mọi nơi (chỉ cần có internet và thiết bị kết nối, hiển thị vd: dtdd)
+
+	- Phương diện nhóm dự án: Mỗi nhóm dự án có nhiều công việc cần làm, trong cùng 1 thời điểm mỗi thành viên trong nhóm chỉ được thực hiện 1 công việc duy nhất. Có nhiều trường hợp nhiều người cùng làm 1 công việc dấn đến lãng phí thời gian. Công việc nào? do ai làm? ai kiểm tra kết quả? cần được lưu trữ lại.
+		+ Giải pháp truyền thống: dùng sổ sách
+		+ Nhược điểm: chi phí giấy tờ, không thống nhất, cập nhật không tức thời.
+		=> Cần 1 hệ thống giúp lưu trữ danh sách công việc cần thực hiện cùng các chi tiết liên quan, cho phép nhiều người cùng truy cập đồng thời, hỗ trợ tương tác thời gian thực.
+		+ Ưu điểm: cập nhật nhanh nhất có thể những thay đổi dựa vào công nghệ thời gian thực. Cho phép lưu lại vòng đời của một công việc cùng với thông tin về thời gian và người thao tác trên công việc đó.
+		
+Phát biểu bài toán:
+	- Hệ thống hoạt động trên nền web
+	- Hệ thống yêu cầu người dùng đăng nhập để sử dụng các chức năng nếu người dùng chưa có tài khoản thì cho phép đăng ký tài khoản.
+	- Hệ thống tiến hành lưu trữ trạng thái làm việc của người dùng cuối mỗi phiên làm việc và khôi phục trạng thái vào phiên làm việc tiếp theo.
+	- Người dùng được phép tạo nhiều dự án (mục đích sử dụng tùy thuộc và người dùng).
+  - Người dùng có thể xem danh sách các dự án do mình tạo và đã tham gia.
+	- Khi xóa 1 dự án cần có sự xác nhận của tất cả người dùng tham gia dự án đó.
+	- Người dùng có thể mời những người dùng khác cùng tham gia dự án do mình tạo. Hoặc yêu cầu tham gia dự án của người dùng khác tạo.
+  - Người dùng có thể xem danh sách lời mời tham gia dự án đối với từng dự án và danh sách yêu cầu tham gia dự án.
+	- Trong mỗi dự án, người dùng được phép tạo công việc, xóa công việc, thay đổi trạng thái công việc.
+  - Người dùng có thể xem bản ghi của mỗi dự án.
+	- Hệ thống cập nhật thông tin theo thời gian thực.
+
+Điều kiện.
+	Q1: tên tài khoản là duy nhất và không dài quá 40 ký tự
+	Q2: mật khẩu không được dài quá 90 ký tự
+	Q3: những dự án của một tài khoản không được phép trùng tên và tên dự án không quá 30 ký tự.
+	Q4: Những công việc của 1 dự án không được phép trùng tên
+	Q5: Chỉ được xóa công việc khi công việc đó có trạng thái là "To do"
+	
