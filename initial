@@ -23,6 +23,8 @@ Phát biểu bài toán:
 	- Trong mỗi dự án, người dùng được phép tạo công việc, xóa công việc, thay đổi trạng thái công việc.
   - Người dùng có thể xem bản ghi của mỗi dự án.
 	- Hệ thống cập nhật thông tin theo thời gian thực.
+	- Hệ thống cho phép thống kê tiến độ (dựa trên số lượng công việc đã hoàn thành) của dự án.
+	- Hệ thống cho phép xem lại biểu đồ phần bổ thời gian (theo giờ) của những công việc trong dự án.
 
 Điều kiện.
 	Q1: tên tài khoản là duy nhất và không dài quá 40 ký tự
