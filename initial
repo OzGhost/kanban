@@ -15,21 +15,24 @@ Phát biểu bài toán:
 	- Hệ thống hoạt động trên nền web
 	- Hệ thống yêu cầu người dùng đăng nhập để sử dụng các chức năng nếu người dùng chưa có tài khoản thì cho phép đăng ký tài khoản.
 	- Hệ thống tiến hành lưu trữ trạng thái làm việc của người dùng cuối mỗi phiên làm việc và khôi phục trạng thái vào phiên làm việc tiếp theo.
-	- Người dùng được phép tạo nhiều dự án (mục đích sử dụng tùy thuộc và người dùng).
-  - Người dùng có thể xem danh sách các dự án do mình tạo và đã tham gia.
+	- Người dùng được phép tạo dự án, xóa dự án
+	- Người dùng có thể xem danh sách các dự án do mình tạo hoặc đã tham gia.
+	- Khi xem danh sách dự án hệ thống cho phép người dùng xem chi tiết dự án hoặc xem danh sách công việc của dự án
+	- Khi xem chi tiết dự án hệ thống cho phép người dùng xóa dự án, đổi tên dự án hoặc xem danh sách yêu cầu tham gia dự án.
 	- Khi xóa 1 dự án cần có sự xác nhận của tất cả người dùng tham gia dự án đó.
+	- Người dùng có thể tìm kiếm người dùng khác hoặc tìm kiếm dự án theo tên
 	- Người dùng có thể mời những người dùng khác cùng tham gia dự án do mình tạo. Hoặc yêu cầu tham gia dự án của người dùng khác tạo.
-  - Người dùng có thể xem danh sách lời mời tham gia dự án đối với từng dự án và danh sách yêu cầu tham gia dự án.
+	- Người dùng có thể xem danh sách lời mời tham gia dự án của mình.
 	- Trong mỗi dự án, người dùng được phép tạo công việc, xóa công việc, thay đổi trạng thái công việc.
-  - Người dùng có thể xem bản ghi của mỗi dự án.
 	- Hệ thống cập nhật thông tin theo thời gian thực.
 	- Hệ thống cho phép thống kê tiến độ (dựa trên số lượng công việc đã hoàn thành) của dự án.
-	- Hệ thống cho phép xem lại biểu đồ phần bổ thời gian (theo giờ) của những công việc trong dự án.
+	- Hệ thống cho phép xem lại biểu đồ phân bổ thời gian (theo giờ) của những công việc trong dự án.
+
 
 Điều kiện.
-	Q1: tên tài khoản là duy nhất và không dài quá 40 ký tự
-	Q2: mật khẩu không được dài quá 90 ký tự
-	Q3: những dự án của một tài khoản không được phép trùng tên và tên dự án không quá 30 ký tự.
+	Q1: Tên tài khoản là duy nhất và không dài quá 40 ký tự
+	Q2: Mật khẩu không được dài quá 90 ký tự
+	Q3: Những dự án của một tài khoản không được phép trùng tên và tên dự án không quá 30 ký tự.
 	Q4: Những công việc của 1 dự án không được phép trùng tên
 	Q5: Chỉ được xóa công việc khi công việc đó có trạng thái là "To do"
 	Q6: Chỉ có người tạo dự án mới được phép xóa dự án đó
