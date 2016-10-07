@@ -35,5 +35,5 @@ Phát biểu bài toán:
 	Q3: Những dự án của một tài khoản không được phép trùng tên và tên dự án không quá 30 ký tự.
 	Q4: Những công việc của 1 dự án không được phép trùng tên
 	Q5: Chỉ được xóa công việc khi công việc đó có trạng thái là "To do"
-	Q6: Chỉ có người tạo dự án mới được phép xóa dự án đó
+	Q6: Chỉ có người tạo dự án mới được phép xóa hoặc đổi tên dự án đó
 	
