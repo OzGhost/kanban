@@ -22,7 +22,8 @@ Phát biểu bài toán:
 	- Khi xóa 1 dự án cần có sự xác nhận của tất cả người dùng tham gia dự án đó.
 	- Người dùng có thể tìm kiếm người dùng khác hoặc tìm kiếm dự án theo tên
 	- Người dùng có thể mời những người dùng khác cùng tham gia dự án do mình tạo. Hoặc yêu cầu tham gia dự án của người dùng khác tạo.
-	- Người dùng có thể xem danh sách lời mời tham gia dự án của mình.
+	- Người dùng có thể xem danh sách yêu cầu tham gia dự án của mình
+	- Người dùng có thể xem danh sách những yêu cầu mình đã gửi nhưng chưa được xác nhận
 	- Trong mỗi dự án, người dùng được phép tạo công việc, xóa công việc, thay đổi trạng thái công việc.
 	- Hệ thống cập nhật thông tin theo thời gian thực.
 	- Hệ thống cho phép thống kê tiến độ (dựa trên số lượng công việc đã hoàn thành) của dự án.
