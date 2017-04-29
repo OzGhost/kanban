@@ -6,7 +6,7 @@
 -- Cài đặt
 *** Lưu ý: khởi động Apache và MariaDB (hoặc MySQL) trước khi thực hiện
 
-	1. Giải nén file Source.7z và copy thư mục yii2 vào root của apache
+	1. Copy thư mục yii2 trong src vào root của apache
 	2. Tạo cơ sở dữ liệu mới
 	3. Cấu hình file db.sql
 	4. Thực thi file db.sql trên cơ sở dữ liệu vừa tạo
