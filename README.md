@@ -1,2 +1,2 @@
-# kanban
-all about kanban website
+
+Kanban website (Subject Project at UIT)
