@@ -1,0 +1,37 @@
+.limit-height {
+    max-height: calc(100vh - 122px);
+    overflow: auto
+}
+#task-list-panel .limit-height {
+    max-height: calc(100vh - 130px);
+}
+.extra-margin-bottom {
+    margin-bottom: 10px
+}
+.add-dialog {
+    left: calc(50% - 15px);
+    top: calc(100% - 40px)
+}
+.over-rem.loading::after {
+    top: calc(50% - 13vmin);
+    left: calc(50% - 13vmin)
+}
+.obj-task a {
+}
+#Msg {
+    position: fixed;
+    right: 0;
+    top: 25px;
+    animation: slideIn .2s ease;
+    z-index: 51;
+}
+@keyframes slideIn {
+    from {transform: translateX(100%)}
+    to {transform: translateX(0)}
+}
+.project-represent > a {
+    max-width: calc(100% - 120px);
+}
+.search .dropUp li input {
+    width: calc(100% - 88px);
+}

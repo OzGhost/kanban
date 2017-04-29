@@ -1,0 +1,18 @@
+-- Danh mục chức năng:
+
+	01. Đăng ký
+	02. Đăng nhập
+	03. Tạo dự án
+	04. Tìm kiếm người dùng và mời tham gia dự án
+	05. Tìm kiếm dự án và yêu cầu tham gia
+	06. Xem danh sách yêu cầu đã gửi
+	07. Xem danh sách yêu cầu đã nhận
+	08. Yêu cầu xóa dự án
+	09. Xác nhận xóa dự án
+	10. Xem danh sách công việc
+	11. Tạo công việc
+	12. Xóa công việc
+	13. Cập nhật trạng thái công việc
+	14. Xem chi tiết dự án
+	15. Đổi tên dự án
+	16. Xem bản ghi dự án
