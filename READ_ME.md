@@ -1,3 +1,6 @@
+
+Kanban website (Subject Project at UIT)
+
 -- Yêu cầu:
 	- Apache
 	- PHP
