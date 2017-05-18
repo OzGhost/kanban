@@ -1,6 +1,6 @@
 # Kanban website (Subject Project at UIT)
 
-web + kanban = practice -> pass Subject too :D
+Web + Kanban = Practice -> pass Subject too :D
 
 -- Requirement:
     - Apache
@@ -8,7 +8,7 @@ web + kanban = practice -> pass Subject too :D
     - MariaDB or MySQL
 
 -- Installation
-# Note: starting Apache and MariaDB (or MySQL) before below steps
+ *** Note: starting Apache and MariaDB (or MySQL) before below steps
 
 	1. Copy folder 'yii2' inside 'src' into ROOT of apache
 	2. Create new database
